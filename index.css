@@ -1,0 +1,472 @@
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("./fonts/IBMPlexSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("./fonts/IBMPlexMono-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 20px 40px;
+  position: relative;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 33px;
+}
+
+.header__nav {
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  font-family: IBMPlexMono;
+}
+
+.header__nav-item {
+  color: #060A24;
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 37px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: IBMPlexSans;
+}
+
+.main__title {
+  font-size: 64px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.main__title-line {
+  text-decoration: line-through;
+}
+
+.main__title-point {
+  color: blue;
+}
+
+.main__title-parrafo {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  max-width: 608px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.main__title-button {
+  background-color: #00F3BB;
+  border: none;
+  font-size: 18px;
+  width: 226px;
+  height: 56px;
+  font-family: IBMPlexMono;
+  font-weight: 500;
+  color: #060A24;
+  cursor: pointer;
+}
+
+.main__title-button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(hotpink));
+  background-image: linear-gradient(pink, hotpink);
+}
+
+.episodes {
+  background: -webkit-gradient(linear, left top, right top, from(#0000a3), color-stop(35%, blue));
+  background: linear-gradient(90deg, #0000a3 0%, blue 35%);
+  height: 1042.6px;
+  -webkit-clip-path: polygon(0% 14%, 100% 0%, 100% 86%, 0% 100%);
+          clip-path: polygon(0% 14%, 100% 0%, 100% 86%, 0% 100%);
+}
+
+.episodes__content {
+  padding: 150px 100px 50px 100px;
+}
+
+.episodes__title {
+  color: white;
+  font-family: IBMPlexSans;
+  font-size: 48px;
+  padding-left: 93px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.episodes__row {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extra-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 5px 200px 214px 200px;
+}
+
+.extra-info__img-phone {
+  max-width: 400px;
+  position: absolute;
+  top: -187px;
+  left: 230px;
+}
+
+.extra-info__container {
+  max-width: 464px;
+}
+
+.extra-info__title-one {
+  font-family: IBMPlexSans;
+  color: #060A24;
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.extra-info__paragraph-one {
+  font-family: IBMPlexMono;
+  color: #060A24;
+}
+
+.photos {
+  width: 100%;
+}
+
+.photos__title-two {
+  font-family: IBMPlexSans;
+  font-size: 48px;
+  color: #060A24;
+  padding-left: 200px;
+}
+
+.photos__the-six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photos__the-sixx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photos__six {
+  width: 33.3%;
+}
+
+.icons {
+  padding: 36px 0;
+}
+
+.icons__title {
+  font-family: IBMPlexSans;
+  font-size: 48px;
+  padding-left: 200px;
+  font-weight: 400;
+}
+
+.icons__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-family: IBMPlexSans;
+  color: #060A24;
+  font-size: 21px;
+  padding: 20px 206px;
+  font-weight: bolder;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.icons__four-title {
+  max-width: 150px;
+}
+
+.icons__four-content {
+  text-align: center;
+}
+
+.news {
+  background: -webkit-gradient(linear, left top, right top, from(#0000a3), color-stop(35%, blue));
+  background: linear-gradient(90deg, #0000a3 0%, blue 35%);
+  -webkit-clip-path: polygon(0% 29%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 29%, 100% 0%, 100% 100%, 0% 100%);
+  height: 519px;
+}
+
+.news__content {
+  padding: 176px 100px 50px 100px;
+  text-align: center;
+}
+
+.news__title {
+  font-family: IBMPlexSans;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.news__title-epi {
+  background-color: #00F3BB;
+  border: none;
+  font-size: 18px;
+  width: 350px;
+  height: 56px;
+  font-family: IBMPlexMono;
+  font-weight: 500;
+  color: #060A24;
+  cursor: pointer;
+}
+
+.news__title-epi:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(hotpink));
+  background-image: linear-gradient(pink, hotpink);
+  color: white;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+}
+
+.footer__copy {
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #060A24;
+}
+
+.footer__copy-anchor {
+  margin-right: 30px;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */
