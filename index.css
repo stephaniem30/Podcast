@@ -313,6 +313,10 @@ body {
           justify-content: space-between;
 }
 
+.episodes__row-iframe {
+  border: transparent;
+}
+
 .extra-info {
   display: -webkit-box;
   display: -ms-flexbox;

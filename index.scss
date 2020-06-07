@@ -256,6 +256,9 @@ body {
         margin-bottom: 50px;
         display: flex;
         justify-content: space-between;
+        &-iframe {
+            border: transparent;
+        }
     }
 }
 .extra-info {
